@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common css end */
+body{
+    font-family: 'Montserrat', sans-serif;}
+
+    
+.parent {
+    width: 1400px;
+    height: 700px;
+    background-color: antiquewhite;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.row{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row .left { 
+    background-image: url(../image/image.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.row .right {
+width: 50%;
+height: 100%;
+padding: 35px ;
+background-color:white;
+border-radius: 0px 10px 10px 0px;
+}
+
+.row .right p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #888;
+}
+.row .right h2{
+    font-family:'Fraunces', serif;
+    font-size: 30px;
+    padding: 15px 0px;
+    font-size: 30px;
+}
+
+.row .right .details {
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 14px;
+}
+
+.row .right .price {
+    color:hsl(158, 36%, 37%);
+    font-size: 25px;
+}
+
+.row .right .price strike{
+    color: #888;
+    font-size:12px;
+
+}
+.row .right a{
+    background-color:hsl(158, 36%, 37%);
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+ 
+.row .right .button:hover {
+    background-color:hsl(160, 33%, 98%); 
+    
+}
